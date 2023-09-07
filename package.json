@@ -26,5 +26,8 @@
     "express": "^4.18.2",
     "mongoose": "^7.5.0",
     "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
