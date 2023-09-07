@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const URI = process.env.MONGODB_URI
 mongoose.connect(URI)
   .then()
-  .catch(error => console.logg(error))
+  .catch(error => console.log(error))
 
 const contactSchema = new mongoose.Schema({
   name: {
